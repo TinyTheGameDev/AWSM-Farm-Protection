@@ -31,7 +31,8 @@ The alien mothership sends out rings/orbs to pick up a randomly picked animal, a
 
 ### UFO_RingManager.cs
 We had origionally during development discussed having abduction rings, and then later due to time constraints left them as abduction orbs.
-There is alot of legacy code in the script, as we also had discussed the possability of having different types of abduction rings/orbs. I had begun the groundwork of having several types, however unfortunatly due to time constraints and to keep the project within scope we ultimatly scrapped this feature.
+
+There is alot of legacy code in the script, as we also had discussed the possability of having different types of abduction rings/orbs. (An orb that deflected X bullets, or one that tried to abduct the player for example) I had begun the groundwork for the orbs to have different affixes that altered how the orb/ring behaved, however unfortunatly due to time constraints we had to keep the project within scope we ultimatly had to scrap this feature.
 
 The UFO_RingManager functions off a State machine for:
 - Seeking
@@ -39,8 +40,11 @@ The UFO_RingManager functions off a State machine for:
 - Returning
 
 When the Orb/Ring is instantiated, it seeks out an animal chosen randomly by the GameManager.
+
 After the animal has been reached, it is placed inside the orb/ring as a child and put into a Sleeping state allowing for a short period of time for the player to react. 
+
 The orb/ring then returns to the mothership. Upon reaching the mothership, the orb/ring reports to the GameManager that the abduction was successful. 
+
 If the player is able to shoot the animal outside the bounds of the orb/ring, then the orb/ring reports to the GameManager that the abduction was failed. 
 
 ###### This README is a work in progress.
