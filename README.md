@@ -6,8 +6,8 @@ Our team used Unity Collab in order to create the game, In this repo you will fi
 The game features a simple round-based system of:
 1. Round Begins
 2. UFO Appears
-3. Abduction Begins
-4. Abduction Ends
+3. Abductions Begin
+4. Abductions End
 5. UFO leaves
 6. Round Ends
 7. Downtime for Upgrades/Minigame/Ammo Collection begins
