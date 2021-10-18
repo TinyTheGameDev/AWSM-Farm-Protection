@@ -275,7 +275,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    //Pause Game. Public so it can be called from UI
+    //Pause Game.
     void HandlePauseGame() {
         if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P)) {
             //Set previous state to current state
@@ -317,6 +317,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    //UI Pause Game - Public so it can be called from UI
     public void HandleUIPause(bool quittingGame) {
          //Set previous state to current state
          if (currentState != GameState.GamePaused) { previousState = currentState; }
@@ -614,8 +615,7 @@ public class GameManager : MonoBehaviour
         dangerCounter--;
     }
 
-    //Tutorial - Yes, this is terrible coding to not not play audio this way but It needs to get done. 
-    //TODO: If time before end of project, properly fix audio playing after skipping
+    //Tutorial Sequence
     int tutorialPhase = 0;
     private IEnumerator HandleTutorial() {
         tutorialActive = true;
