@@ -1,5 +1,6 @@
 # AWSM-Farm-Protection
-AWSM Farm Protection was a group project of myself and three other students. We were given eight weeks to create an origional game idea and then bring it to life in an editor of our choosing.
+AWSM Farm Protection was a group project of myself and three other students. We were given eight weeks to create an origional game idea and then bring it to life in a game engine of our choosing.
+
 Our team used Unity Collab in order to create the game, In this repo you will find the script's that I worked on throughout the project. 
 
 The game features a simple round-based system of:
