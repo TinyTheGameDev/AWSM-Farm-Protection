@@ -46,5 +46,3 @@ After the animal has been reached, it is placed inside the orb/ring as a child a
 The orb/ring then returns to the mothership. Upon reaching the mothership, the orb/ring reports to the GameManager that the abduction was successful. 
 
 If the player is able to shoot the animal outside the bounds of the orb/ring, then the orb/ring reports to the GameManager that the abduction was failed. 
-
-###### This README is a work in progress.
